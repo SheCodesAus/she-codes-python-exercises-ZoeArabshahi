@@ -1,0 +1,13 @@
+moth_in_house=False
+mitch_is_home=True
+
+if moth_in_house==True and mitch_is_home==True:
+    print("Hooooman, help me get the mouth")
+elif moth_in_house==False and mitch_is_home==False:
+    print("No threats detected!")
+elif moth_in_house==True and mitch_is_home==False:
+    print("Mow! His!")
+elif moth_in_house==False and mitch_is_home==True:
+    print("Go Mitch!")
+else:
+    print("all good!")

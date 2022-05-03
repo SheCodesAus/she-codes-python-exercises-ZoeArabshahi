@@ -1,0 +1,10 @@
+from tkinter import Y
+
+
+x=input("How tall are you?")
+y=120
+
+if int(x)>=y:
+    print("Hope on!")
+elif int(x)<y:
+    print("Sorry!")

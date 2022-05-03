@@ -3,6 +3,5 @@
 #then print "you have x years to get 90."
 
 X=input("What is your name? ")
-y=input("how old are you? ")
-xy= 90-int(y)
-print("You have ",xy,"years to turn 90!")
+y=int(input("how old are you? "))
+print(f"You have {90-y} ears to turn 90!")
